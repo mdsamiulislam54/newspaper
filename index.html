@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Paper</title>
+
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+
+
+<header id="header">
+   
+    <nav class="navbar_heading">
+        <div><a href="">News</a></div>
+        <ul class="navbar">
+            <li><a href="#" onclick="fetchNews('general')">Home</a></li>
+            <li><a href="#" onclick="fetchNews('world')">World</a></li>
+            <li><a href="#" onclick="fetchNews('politics')">Politics</a></li>
+            <li><a href="#" onclick="fetchNews('technology')">Technology</a></li>
+            <li><a href="#" onclick="fetchNews('sports')">Sports</a></li>
+            <li><a href="#" onclick="fetchNews('entertainment')">Entertainment</a></li>
+        </ul>
+    </nav>
+  
+</header>
+
+<div id="loading" >
+    <p>Loading news, please wait...</p>
+</div>
+<div class="animation"><marquee behavior="" direction="right">Top News</marquee></div>
+
+<main id="newsContainer">
+  
+    
+</main>
+<footer>
+    <p>&copy; 2024 My News Paper</p>
+</footer>
+
+ 
+    <script src="app.jsx"></script>
+</body>
+</html>
